@@ -3999,6 +3999,10 @@ input, select, textarea {
 				width: 12em;
 			}
 
+			.wrapper.spotlight:nth-child(2n - 1) .inner {
+				text-align: left;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -4157,4 +4161,15 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	/*--- Custom Styles ----*/
+	@media screen and (max-width: 480px) {
+		.center-mobile {
+			text-align: center;
+		}
+		#one .image, #two .image, #three .image {
+			display: block;
+			margin: 0 auto 1em !important;
+		}
 	}
