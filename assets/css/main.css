@@ -2409,7 +2409,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-	.fa-code:before {
+	.fa-code:before, .fa-ice-cream:before {
 		font-weight: 900;
 	}
 
